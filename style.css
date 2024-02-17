@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(120, 151, 138);
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background: url(home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+nav{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 8px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.logo {
+    width: 100px;
+    margin-top: 2%;
+    margin-left: -2%;
+    border-radius: 50px;
+
+}
+
+ul{
+    margin-top: -4%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Philosopher";
+    margin-top: -3%;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.6s ease-in-out;
+    display: inline-block;
+    
+
+}
+
+nav ul li a:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color: rgb(91, 114, 91);
+    background: transparent;
+}
+
+.header-text{
+    margin-left: 8%;
+    margin-top: 6%;
+    
+}
+.header-text h1{
+    font-size: 50px;
+    font-family: "Shrikhand";
+    color: rgb(91, 114, 91);
+    letter-spacing: 2px;
+}
+
+.header-text h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: "Courgette";
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.header-text h2{
+    font-family: "Gruppo";
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.cv{
+    text-decoration: none;
+    color:ghostwhite;
+    background: rgb(91, 114, 91);
+    margin: 25px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.6s ease-in-out;
+    border: none;
+    font-family: "Philosopher";
+    font-size: 20px;
+
+}
+
+.cv:hover{
+    transform: translateY(-5px);
+    background: transparent;
+    color: rgb(91, 114, 91);
+    border: 1px rgb(91, 114, 91) solid;
+    
+}
+
+.home-pic{
+    width: 30%;
+    height: 68%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+
+.pretty{
+    margin-bottom: 15%;
+    position: absolute;
+    height: 100%;
+    left: 30%;
+    transform: translate(-50%);
+    bottom: 0;
+    border-radius: 80px;
+   
+}
+
+#about{
+    padding: 80px 0;
+    color: #fff;
+    height: 100vh;
+    
+}
+#about h1{
+    color: rgb(216, 173, 181);
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.divide{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left{
+    flex-basis: 35%;
+}
+
+.left img{
+    width: 400px;
+    height: 450px ;
+    border-radius: 20px;
+    margin-left: 8%;
+}
+
+.right{
+    flex-basis: 60%;
+    margin-right: 20px;
+}
+
+.greetings{
+    font-size: 25px;
+    margin-top: 3%;
+    font-family: "Protest Riot";
+}
+
+.text{
+    font-family: "Montserrat";
+    margin-top: 3%;
+    text-align: justify;
+}
